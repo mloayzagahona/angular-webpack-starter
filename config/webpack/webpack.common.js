@@ -14,7 +14,7 @@ const envMap = _.mapValues(env, v => JSON.stringify(v));
 const entry = {
   'polyfills': './src/polyfills.ts',
   'style': './src/style.ts',
-  'app': './src/main.ts'
+  'app': './src/main-ngc.ts'
 };
 
 if (isProd) {
