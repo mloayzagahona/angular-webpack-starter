@@ -19,7 +19,8 @@ module.exports = webpackMerge(commonConfig, {
           forkChecker: true
         },
         exclude: [
-          /node_modules/
+          /node_modules/,
+          /e2e/
         ]
       },
       {
